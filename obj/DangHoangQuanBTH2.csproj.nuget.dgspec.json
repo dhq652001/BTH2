@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\84333\\DangHoangQuanBTH2\\DangHoangQuanBTH2.csproj": {}
+    "D:\\Net2\\DangHoangQuanBTH2\\DangHoangQuanBTH2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\84333\\DangHoangQuanBTH2\\DangHoangQuanBTH2.csproj": {
+    "D:\\Net2\\DangHoangQuanBTH2\\DangHoangQuanBTH2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\84333\\DangHoangQuanBTH2\\DangHoangQuanBTH2.csproj",
+        "projectUniqueName": "D:\\Net2\\DangHoangQuanBTH2\\DangHoangQuanBTH2.csproj",
         "projectName": "DangHoangQuanBTH2",
-        "projectPath": "C:\\Users\\84333\\DangHoangQuanBTH2\\DangHoangQuanBTH2.csproj",
+        "projectPath": "D:\\Net2\\DangHoangQuanBTH2\\DangHoangQuanBTH2.csproj",
         "packagesPath": "C:\\Users\\84333\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\84333\\DangHoangQuanBTH2\\obj\\",
+        "outputPath": "D:\\Net2\\DangHoangQuanBTH2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -43,6 +43,26 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SQLite": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
