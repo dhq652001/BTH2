@@ -10,6 +10,9 @@ namespace DangHoangQuanBTH2.Data
 
         }
         public DbSet<Student> Students {get;set;}
+        public DbSet<Employee> Employees{get;set;}
+        public DbSet<Person> People{get;set;}
+        public DbSet<Customer> Customers{get;set;}
     }
 }
     
